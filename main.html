@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hay88net</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><ion-icon name="chevron-up-outline"></ion-icon></button>
+
+    <header class="header ">
+        <div class="bg-[#3e87c7] tracking-wide p-3.5">
+            <div class="max-w-[1080px] m-auto flex  justify-center md:justify-between items-center text-white font-semibold relative">
+                <div class="menu-icon absolute left-0 md:hidden text-2xl" onclick="OpenNav()">
+                    <ion-icon name="menu-outline" class="border p-1 rounded-md"></ion-icon>
+                </div>
+    
+                <div class="logo max-w-[200px]">
+                    <img src="./images/logo.png">
+                </div>
+
+                <nav id="Nav" class="">
+                    <div class="md:hidden flex justify-end text-3xl p-2 font-bold" onclick="CloseNav()">
+                        <ion-icon name="close"></ion-icon>
+                    </div>
+                    <ul class="h-full md:relative absolute top-0 z-10 flex flex-col gap-0 md:gap-5 md:flex-row md:p-5 text-[14.5px] bg-gray-100 text-gray-700 md:text-white md:bg-[#3e87c7]">
+                        <!-- search -->
+                        <div class="mt-10 md:hidden p-4 border-b">
+                            <div class="border flex justify-center items-center">
+                                <input type="search" class="p-2 focus:outline-none w-56 font-normal" placeholder="Tiềm Kiếm ..." required />
+    
+                                <button class="bg-orange-500 text-white p-2">
+                                    <ion-icon name="search" class="text-2xl flex justify-center items-center"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- menu -->
+                        <li class="border-b py-4 md:py-0 md:border-none"><a href="#" class="p-5 md:p-0 mt-20 md:mt-0 hover:text-orange-400 duration-300">TRANG CHỦ</a></li>
+                        <li class="border-b py-4 md:py-0 md:border-none"><a href="#" class="p-5 md:p-0 hover:text-orange-400 duration-300">KHUYẾN MÃI</a></li>
+                        <li class="border-b py-4 md:py-0 md:border-none"><a href="#" class="p-5 md:p-0 hover:text-orange-400 duration-300">ĐĂNG KÝ</a></li>
+                        <li class="border-b py-4 md:py-0 md:border-none"><a href="#" class="p-5 md:p-0 hover:text-orange-400 duration-300">HƯỚNG DẪN</a></li>
+                        <li class="border-b py-4 md:py-0 md:border-none"><a href="#" class="p-5 md:p-0 hover:text-orange-400 duration-300">LIÊN HỆ</a></li>
+
+                        <!-- icon -->
+                        <div class="md:hidden mt-1">
+                            <div class="p-4">
+                                <ion-icon name="logo-facebook" class="text-4xl text-blue-800"></ion-icon>
+                                <ion-icon name="logo-twitter" class="text-2xl p-1 text-white bg-indigo-800 border rounded-full"></ion-icon>
+                                <ion-icon name="mail-outline" class="text-2xl p-1 text-white bg-gray-900 border rounded-full"></ion-icon>
+                                <ion-icon name="call-outline" class="text-2xl p-1 text-white bg-green-500 border rounded-full"></ion-icon>
+                                <ion-icon name="logo-pinterest" class="text-4xl text-red-500"></ion-icon>
+                                <ion-icon name="logo-youtube" class="text-2xl p-1 text-white bg-red-500 border rounded-full"></ion-icon>
+                                <ion-icon name="navigate" class="text-2xl p-1 text-white bg-blue-500 border rounded-full"></ion-icon>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+    
+                <div class="text-white hidden md:block text-[13.5px]">
+                    <a href=""><button class="bg-[#b20000] px-4 py-1.5 rounded-full">ĐĂNG KÝ</button></a>
+                    <a href=""><button class="bg-[#446084] px-4 py-1.5 rounded-full">ĐĂNG NHẬP</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-white flex gap-3 justify-center font-semibold items-center md:hidden bg-gray-300 text-[13.5px]">
+            <a href=""><button class="bg-[#b20000] px-4 py-1.5 rounded-full border">ĐĂNG KÝ</button></a>
+            <a href=""><button class="bg-[#446084] px-4 py-1.5 rounded-full border">ĐĂNG NHẬP</button></a>
+        </div>
+    </header>
+
+
+
+    <div class="main mt-5 p-4">
+        <div class="">
+            <span class="text-2xl md:text-3xl font-medium text-[#1e73be] block text-center">Liên Hệ Hay88 – Dịch Vụ Chăm Sóc Khách Hàng Tốt Nhất</span>
+
+            <p class="mt-5"><a href="#" class="text-orange-400 font-semibold">Liên hệ Hay88</a> là một bước quan trọng để trải nghiệm thế giới giải trí trực tuyến tuyệt vời. Đầu tiên, bạn có thể truy cập trang web chính thức của họ và sử dụng thông tin liên hệ được cung cấp để liên lạc qua email hoặc số điện thoại. Nhóm hỗ trợ của <a href="#" class="text-orange-400 font-semibold">Hay88</a> luôn sẵn sàng lắng nghe và giải đáp mọi câu hỏi của bạn về đặt cược, trò chơi, hoặc về tài khoản của bạn.</p>
+            
+            <span class="text-2xl text-[#1e73be] mt-5 block">Sơ Bộ Về Nhà Cái Uy Tín Hay88</span>
+            <p class="mt-3">Những người yêu thích sự hồi hộp của cá cược trực tuyến đều biết rằng tìm kiếm một nhà cái uy tín là một phần quan trọng của trải nghiệm cá cược của họ. Trong thế giới đầy cạnh tranh của ngành công nghiệp này, nhà cái Hay88 nổi lên như một tượng đài đáng tin cậy. Bài viết này sẽ giới thiệu một cách sơ bộ về nhà cái uy tín Hay88 và tầm quan trọng của việc <span class="text-gray-900 font-semibold">Liên hệ Hay88.</span> </p>
+
+            <!-- images 1 -->
+            <div class="mt-5 flex flex-col justify-center items-center w-full">
+                <div class="">
+                    <img src="./images/img1.jpg">
+                    <span class="italic p-2 bg-gray-100 block text-center">Sơ bộ về nhà cái Hay88</span>
+                </div>
+            </div>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Về Nhà Cái Hay88</span>
+            <p class="mt-3">Hay88 là một trong những nhà cái hàng đầu trên thị trường cá cược trực tuyến. Với nhiều năm kinh nghiệm trong ngành, họ đã xây dựng một danh tiếng vững chắc trong việc cung cấp các dịch vụ cá cược đa dạng và chất lượng.</p>
+            
+            <span class="text-xl text-[#1e73be] mt-7 block">Về Nhà Cái Hay88</span>
+            <ul class="list-disc p-4">
+                <li>Uy Tín Và An Toàn: Sự uy tín là tiêu chí hàng đầu của Hay88. Họ hoạt động dưới sự giám sát nghiêm ngặt và tuân thủ các quy định về an toàn dữ liệu, đảm bảo sự riêng tư và bảo mật cho người chơi.</li>
+                <li class="mt-3">Sự Đa Dạng Trong Lựa Chọn: Hay88 cung cấp một loạt các trò chơi, bao gồm cá cược thể thao, sòng bạc trực tuyến, và nhiều trò chơi khác nữa, đảm bảo sự đa dạng cho người chơi.</li>
+                <li class="mt-3">Hỗ Trợ Khách Hàng 24/7: Hệ thống hỗ trợ khách hàng của Hay88 luôn sẵn sàng giải đáp tất cả câu hỏi và giải quyết mọi vấn đề nhanh chóng và chuyên nghiệp.</li>
+            </ul>
+            
+            <!-- Các Phương Thức Liên Hệ Nhà Cái Hay88 -->
+            <span class="text-2xl text-[#1e73be] mt-5 block">Các Phương Thức Liên Hệ Nhà Cái Hay88</span>
+            <p class="mt-3">Việc <span class="text-gray-900 font-semibold">Liên hệ Hay88.</span> là một phần quan trọng trong việc tham gia cá cược trực tuyến. Trong bài viết này, chúng tôi sẽ giới thiệu chi tiết về các phương thức liên hệ Hay88, giúp bạn tận hưởng trải nghiệm cá cược một cách thuận lợi và đáng tin cậy. </p>
+            
+            <span class="text-xl text-[#1e73be] mt-7 block">Liên Hệ Qua Website Chính Thức</span>
+            <p class="mt-3">Trang web chính thức của Hay88 là một nguồn thông tin quan trọng và phương tiện để liên hệ Hay88. Bạn có thể truy cập trang chủ Hay88 theo đường liên kết: <a href="#" class="text-orange-400 font-semibold">https://hay88net.com/</a></p>
+            <ul class="list-disc p-4">
+                <li>Gửi Email: Gửi câu hỏi, yêu cầu hoặc ý kiến của bạn đến đội ngũ hỗ trợ của Hay88 qua địa chỉ email: <span class="text-gray-900 font-semibold">hay88net.com@gmail.com</span></li>
+                <li class="mt-3">Gọi Điện Thoại: Sử dụng số điện thoại liên hệ để nói trực tiếp với đội ngũ hỗ trợ và nhận được sự giúp đỡ.</li>
+            </ul>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Hỗ Trợ Trực Tuyến qua Chat</span>
+            <p class="mt-3">Một phương thức liên hệ nhanh chóng và tiện lợi là sử dụng dịch vụ chat trực tuyến của Hay88. Đội ngũ hỗ trợ trực tuyến sẵn sàng giải đáp mọi câu hỏi và xử lý mọi vấn đề của bạn trong thời gian ngắn. Chỉ cần nhấn vào biểu tượng chat trực tuyến trên trang web của Hay88 và bắt đầu cuộc trò chuyện.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Liên Hệ Qua Mạng Xã Hội</span>
+            <p class="mt-3">Hay88 cũng có mặt trên các mạng xã hội phổ biến như Facebook, Twitter, hoặc Instagram. Bạn có thể tìm kiếm trang chính của họ và sử dụng tính năng tin nhắn trực tiếp để <span class="text-gray-900 font-semibold">Liên hệ Hay88.</span> Điều này cung cấp một cách khác để kết nối và gửi câu hỏi hoặc phản hồi.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Tổng Đài Hỗ Trợ 24/7</span>
+            <p class="mt-3">Nếu bạn có vấn đề cần giải quyết ngay lập tức, tổng đài hỗ trợ 24/7 của Hay88 là lựa chọn tốt. Họ cung cấp dịch vụ khách hàng suốt ngày đêm, đảm bảo rằng bạn luôn có người để trò chuyện và giúp đỡ dù là vào bất kỳ thời điểm nào trong ngày. Hotline tổng đài 24/7: <span class="text-gray-900 font-semibold">(+63) 949 870 7015</span></p>
+
+            <!-- Tại Sao Nên Liên Hệ Với Nhà Cái Hay88 -->
+            <span class="text-2xl text-[#1e73be] mt-7 block">Tại Sao Nên Liên Hệ Với Nhà Cái Hay88</span>
+            <p class="mt-3">Việc lựa chọn một nhà cái uy tín và đáng tin cậy là một phần quan trọng của trải nghiệm cá cược trực tuyến của bạn. Trong bài viết này, chúng tôi sẽ giải thích tại sao bạn nên liên hệ Hay88 – một nhà cái đã xây dựng danh tiếng vững chắc trong ngành và đang được nhiều người chơi đánh giá cao.</p>
+
+            <!-- images 2 -->
+            <div class="mt-5 flex flex-col justify-center items-center w-full">
+                <div class="">
+                    <img src="./images/img2.jpg">
+                    <span class="italic p-2 bg-gray-100 block text-center">Tại sao nên liên hệ nhà cái Hay88</span>
+                </div>
+            </div>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Uy Tín Và An Toàn</span>
+            <p class="mt-3"><span class="text-gray-900 font-semibold">Liên hệ Hay88</span> đồng nghĩa với việc bạn đang kết nối với một nhà cái có uy tín và đảm bảo an toàn. Hay88 tuân thủ các quy định nghiêm ngặt về bảo mật và riêng tư, đảm bảo rằng thông tin cá nhân của bạn được bảo vệ một cách tối ưu. Điều này đặt ra tiêu chí hàng đầu để bạn có thể đặt niềm tin vào họ.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Hỗ Trợ Người Chơi Nhanh Chóng Và Chuyên Nghiệp</span>
+            <p class="mt-3">Liên hệ Hay88 giúp bạn tiếp cận một đội ngũ hỗ trợ khách hàng nhanh chóng và chuyên nghiệp. Bất kỳ khi nào bạn cần giúp đỡ, câu hỏi được giải đáp, hoặc gặp vấn đề trong quá trình cá cược, họ sẽ sẵn sàng để hỗ trợ bạn. Điều này tạo nên một môi trường an toàn và tin cậy cho người chơi.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Thông Tin Chi Tiết Nhà Cái Về Các Dịch Vụ</span>
+            <p class="mt-3">Liên hệ Hay88 cũng giúp bạn có cơ hội tìm hiểu chi tiết về các dịch vụ và ưu đãi mà họ cung cấp. Bạn có thể hỏi về các khoản thưởng, cược thể thao, sòng bạc trực tuyến, và nhiều trò chơi khác mà Hay88 đang cung cấp. Điều này giúp bạn tận dụng mọi cơ hội có thể trong trò chơi.</p>
+            
+            <span class="text-xl text-[#1e73be] mt-7 block">Giải Đáp Các Câu Hỏi Cá Nhân Hóa</span>
+            <p class="mt-3"><span class="text-gray-900 font-semibold">Liên hệ Hay88</span> cho phép bạn đặt ra các câu hỏi cá nhân hóa liên quan đến tài khoản của bạn, giao dịch, hoặc bất kỳ vấn đề cụ thể nào bạn quan tâm. Điều này giúp bạn hiểu rõ hơn về tình hình cá nhân và có thể đưa ra quyết định tốt hơn trong trò chơi.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Hưởng Trọn Trải Nghiệm Cá Cược</span>
+            <p class="mt-3">Cuối cùng, liên hệ Hay88 giúp bạn tận hưởng trọn trải nghiệm cá cược trực tuyến. Sự an toàn, tin cậy và hỗ trợ nhiệt tình từ đội ngũ của họ sẽ giúp bạn tập trung vào việc đặt cược và tham gia các trò chơi mà bạn yêu thích, mà không cần lo lắng về các vấn đề liên quan đến dịch vụ khách hàng.</p>
+
+            <!-- Một Số Câu Hỏi Thường Gặp Trong Liên Hệ Hay88 -->
+            <span class="text-2xl text-[#1e73be] mt-7 block">Một Số Câu Hỏi Thường Gặp Trong Liên Hệ Hay88</span>
+            <p class="mt-3">Khi bạn quyết định liên hệ Hay88, có thể có một số câu hỏi chung mà bạn muốn được giải đáp trước khi bắt đầu tham gia cá cược trực tuyến. Dưới đây là một số câu hỏi thường gặp mà bạn có thể gặp phải và cách giải quyết chúng:</p>
+
+            <!-- images 3 -->
+            <div class="mt-5 flex flex-col justify-center items-center w-full">
+                <div class="">
+                    <img src="./images/img3.jpg">
+                    <span class="italic p-2 bg-gray-100 block text-center">Câu hỏi thường gặp khi liên hệ</span>
+                </div>
+            </div>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Làm cách nào để liên hệ với nhà cái Hay88?</span>
+            <p class="mt-3">Để <span class="text-gray-900 font-semibold">Liên hệ Hay88,</span> bạn có thể sử dụng nhiều phương thức khác nhau, bao gồm gửi email, gọi điện thoại, sử dụng chat trực tuyến trên trang web của họ hoặc tìm kiếm họ trên các mạng xã hội phổ biến như Facebook và Twitter.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Tôi có thể nhận được sự hỗ trợ nhanh chóng từ Hay88 không?</span>
+            <p class="mt-3">Với đội ngũ hỗ trợ khách hàng 24/7, bạn có thể chắc chắn rằng bạn sẽ nhận được sự hỗ trợ nhanh chóng và chuyên nghiệp từ Hay88 bất kể thời gian bạn liên hệ.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Làm thế nào để tìm hiểu về các ưu đãi và khuyến mãi hiện có tại Hay88?</span>
+            <p class="mt-3">Bạn có thể tìm hiểu về các ưu đãi và khuyến mãi hiện có bằng cách truy cập trang web của Hay88 hoặc liên hệ với họ để yêu cầu thông tin chi tiết về các chương trình khuyến mãi và cách tham gia.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Hay88 có cung cấp hướng dẫn cho người mới chơi không?</span>
+            <p class="mt-3">Có, Hay88 thường cung cấp hướng dẫn và hỗ trợ cho người mới chơi. Bạn có thể hỏi về cách đặt cược, cách thực hiện các giao dịch, và cách chơi các trò chơi trực tuyến.</p>
+
+            <span class="text-xl text-[#1e73be] mt-7 block">Làm thế nào để xác minh tài khoản của tôi tại Hay88?</span>
+            <p class="mt-3">Xác minh tài khoản là một phần quan trọng để đảm bảo tính bảo mật và tránh gian lận. Hay88 sẽ hướng dẫn bạn về quy trình xác minh tài khoản của họ, thường là thông qua việc gửi các tài liệu như giấy tờ cá nhân và hóa đơn cước.</p>
+
+            <!-- Kết luận -->
+            <span class="text-2xl text-[#1e73be] mt-7 block">Kết luận</span>
+            <p class="mt-3">Trong thế giới sôi động của cá cược trực tuyến, <span class="text-gray-900 font-semibold">Liên hệ Hay88</span> đánh dấu một cơ hội quý báu để kết nối với một nhà cái uy tín và chất lượng. Với sự cam kết về an toàn và sự hỗ trợ 24/7, Hay88 không chỉ cung cấp một nền tảng đáng tin cậy cho các trò chơi cá cược, mà còn là điểm đến lý tưởng để đặt câu hỏi, tìm hiểu về ưu đãi, và giải quyết mọi thắc mắc của bạn. </p>
+            <p class="mt-3">Dù bạn đang tìm hiểu về cách đặt cược, tham gia sòng bạc trực tuyến, hay đơn giản là muốn biết thêm về những gì Hay88 có thể mang lại, việc liên hệ Hay88 sẽ là bước đầu tiên trong hành trình cá cược của bạn.</p>
+
+            <!-- about -->
+            <div class="mt-20">
+                <div class="border-b py-0.5 text-[13px]">
+                    <a href="#" class="bg-gray-200 px-2 py-1.5">About</a>
+                    <a href="#" class="hover:bg-gray-200 duration-500 px-2 py-1.5">Latest Posts</a>
+                </div>
+            </div>
+
+            <!-- Hồng Đức -->
+            <div class="py-10 border-b flex flex-col md:flex-row gap-3">
+                <div class="w-20 md:w-32 rounded-full">
+                    <img src="./images/avatar.jpg" class="rounded-full">
+                </div>
+                <div class="text-[14px]">
+                    <a href="#" class="text-orange-400 text-lg font-semibold">Hồng Đức</a>
+                    <p class="text-[13px]">Hồng Đức - CEO Nhà Cái Hay88 Đẳng Cấp Nhất Thị Trường at <a href="#" class="text-orange-400">Hay88</a></p>
+                    <p>Hồng Đức là một trong những CEO hàng đầu và được tôn vinh trong lĩnh vực cá cược trực tuyến. Với sự am hiểu sâu sắc và lịch sử kinh nghiệm đáng kể, anh đã đưa nhà cái Hay88 đạt được thành công vượt bậc trong ngành này. </p>
+                    <p>Họ và tên: Đoàn Hồng Đức</p>
+                    <p>Ngày sinh: 11/07/1997</p>
+                    <p>Giới tính: Nam</p>
+                    <p>Quê quán: Thành phố Hồ Chí Minh, Việt Nam</p>
+                    <p>Trình độ học vấn: Tôi đã tốt nghiệp Đại Học UEF Tp.HCM</p>
+                    <p>Địa chỉ liên hệ: Nguyễn Chí Thanh, phường 9, quận 5, Tp.HCM</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="mt-10 bg-[#3e87c7] py-10 p-4">
+            <div class="max-w-[1080px] m-auto grid md:grid-cols-3 gap-5 text-gray-200">
+                <div class="flex flex-col">
+                    <span class="font-semibold block">HÀ CÁI HAY88</span>
+                    <span class="w-8 h-1 bg-gray-400 block mt-2"></span>
+                    <div class="mt-5">
+                        <img src="./images/logo.png" class="w-5/12">
+                    </div>
+                    <p class="mt-5"><span class="font-semibold">Hay88</span> là nhà cái về cá cược online đẳng cấp nhất hiện nay. Với các tựa game đa dạng, hấp dẫn. Tham gia trải nghiệm ngay để nhận nhiều ưu đãi cực lớn.</p>
+                </div>
+    
+                <div class="">
+                    <span class="font-semibold block">VỀ CHÚNG TÔI</span>
+                    <span class="w-8 h-1 bg-gray-400 block mt-2"></span>
+                    <div class="flex flex-col gap-3 mt-5">
+                        <a href="#" class="hover:text-white duration-500">GIỚI THIỆU</a>
+                        <a href="#" class="hover:text-white duration-500">CHÍNH SÁCH BẢO MẬT</a>
+                        <a href="#" class="hover:text-white duration-500">ĐIỀU KHOẢN DỊCH VỤ</a>
+                        <a href="#" class="hover:text-white duration-500">LIÊN HỆ</a>
+                        <a href="#" class="hover:text-white duration-500">SITEMAP</a>
+                    </div>
+                
+                </div>
+    
+                <div class="">
+                    <span class="font-semibold block">LIÊN HỆ NHÀ CÁI</span>
+                    <span class="w-8 h-1 bg-gray-400 block mt-2"></span>
+                    <div class="flex flex-col gap-3 mt-5">
+                        <span>Website:<a href="#"> https://hay88net.com/</a></span>
+                        
+                        <span>Email: hay88net.com@gmail.com</span>
+                        <span>Điện Thoại: (+63) 949 870 7015</span>
+                        <span>Địa Chỉ: 30 Nguyễn Trọng Tuyển, Phường 15,</span>
+                        <span>Phú Nhuận, Thành phố Hồ Chí Minh, Việt Nam</span>
+                        <span>Mã Bưu Điện: 72209</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-4 bg-[#dd9933] text-gray-300">
+            <span class="block text-center">Copyright 2024 © Bản quyền HAY88NET.COM</span>
+        </div>
+    </div>
+
+    <script>
+        // Show and hide menu
+        function OpenNav(){
+        document.getElementById("Nav").style.width = "100%";
+        }
+        function CloseNav(){
+        document.getElementById("Nav").style.width = "0%";
+        }
+
+        // ========================================================================================
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
